@@ -28,11 +28,10 @@ body {
 
 .gallary-container {
   display: flex;
-  flex-direction: column;
   align-items: center;
   margin: 2em;
   padding: 1em;
-  border: .25em solid black;
+  border: .25em double lightgrey;
 }
 
 .gallary-octocat {
@@ -43,8 +42,8 @@ body {
   display: flex;
   align-items: center;
   width: 100%;
-  padding: .5em;
-  border: .25em solid black;
+  padding: 0em .5em;
+  border-bottom: .05em solid grey;
 }
 
 .gallary-number {
