@@ -12,6 +12,7 @@ body {
   display: flex;
   align-items: center;
   padding: .25em;
+  background: lightgrey;
 }
 
 .nav-logo {
@@ -28,10 +29,14 @@ body {
 
 .gallary-container {
   display: flex;
+  flex-direction: column;
   align-items: center;
+}
+
+.gallary-element {
+  border: .25em double lightgrey;
   margin: 2em;
   padding: 1em;
-  border: .25em double lightgrey;
 }
 
 .gallary-octocat {
@@ -42,7 +47,7 @@ body {
   display: flex;
   align-items: center;
   width: 100%;
-  padding: 0em .5em;
+  padding: .5em;
   border-bottom: .05em solid grey;
 }
 
