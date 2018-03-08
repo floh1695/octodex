@@ -52,17 +52,36 @@ body {
 }
 
 .gallary-number {
-
+  color: lightgrey;
 }
 
 .gallary-cat-name {
-
+  color: grey;
 }
 
 .gallary-cat-link {
-
+  color: darkgrey;
+  text-decoration: none;
+  font-size: 1.1em;
 }
 
 .gallary-user-icon {
   height: 2em;
+}
+
+/* 
+If screen width >= 600px,
+aka not a mobile device
+*/
+@media (min-width: 600px) {
+  .gallary-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gallary-element {
+    width: 25%;
+    min-width: 400px;
+  }
 }
